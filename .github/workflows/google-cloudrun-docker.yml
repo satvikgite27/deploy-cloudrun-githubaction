@@ -43,8 +43,8 @@ jobs:
 
       - name: Deploy to Cloud Run
         run: |
-          gcloud run deploy your-service-name \
-            --image gcr.io/${{ secrets.PROJECT_ID }}/your-image-name \
+          gcloud run deploy contact-app-1 \
+            --image gcr.io/${{ secrets.PROJECT_ID }}/ contact-app \
             --platform managed \
-            --region your-region \
+            --region asia-south1 \
             --allow-unauthenticated
