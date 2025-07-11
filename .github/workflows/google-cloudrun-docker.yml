@@ -1,4 +1,4 @@
-name: 'CI/CD Pipeline for Contact-App-Prod'
+name: 'google-cloudrun-docker.yml'
 
 on:
   push:
